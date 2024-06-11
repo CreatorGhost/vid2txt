@@ -1,19 +1,11 @@
 
-### Documentation: Video to Text Transcription Tool Using Docker
+### Documentation: vid2txt - Docker-based Video to Text Transcription
 
-  
-
-This document outlines the process, tools, and commands used to set up and run a video to text transcription tool encapsulated within a Docker container. This setup allows users to transcribe video files to text using OpenAI's Whisper model, ensuring compatibility across different operating systems without the need for manual environment setup.
-
-  
+This document provides a comprehensive guide on setting up and operating vid2txt, a Docker-encapsulated tool designed for converting video files into text transcriptions. By leveraging OpenAI's Whisper model, vid2txt facilitates a seamless transcription process across various operating systems without necessitating manual configuration of the environment.
 
 #### Overview
 
-  
-
-The tool extracts audio from a video file, transcribes the audio to text using the Whisper model, and saves the transcription to a text file. The entire process is automated within a Docker container, requiring only Docker to be installed on the user's system.
-
-  
+vid2txt automates the conversion of video files into text by first extracting the audio component, then transcribing this audio into text using the Whisper model, and finally saving the output as a text file. This entire workflow is contained within a Docker container, simplifying the process to a single requirement: having Docker installed on the user's machine.
 
 #### Tools and Technologies
 
